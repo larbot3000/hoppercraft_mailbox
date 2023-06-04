@@ -5,17 +5,18 @@ scoreboard objectives add mailbox_x dummy "mailbox_x"
 scoreboard objectives add mailbox_y dummy "mailbox_y"
 scoreboard objectives add mailbox_z dummy "mailbox_z"
 
-#remove - testing only
+# testing only
 
-scoreboard players set Larbot mailbox_x 256
-scoreboard players set Larbot mailbox_y 75
-scoreboard players set Larbot mailbox_z 743
+#scoreboard players set Larbot mailbox_x 256
+#scoreboard players set Larbot mailbox_y 75
+#scoreboard players set Larbot mailbox_z 743
 
+# end testing only
 
-# vdv raycast
+#  raycast
 
 scoreboard objectives add vdvcasttemp dummy
 
-#end vdv raycast
+#end  raycast
 
 function mailbox:tick
