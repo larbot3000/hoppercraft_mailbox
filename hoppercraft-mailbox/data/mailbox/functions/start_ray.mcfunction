@@ -13,4 +13,3 @@ function mailbox:ray
 
 tag @s remove vdvray
 
-#execute as @a[tag=admin,limit=1] run tellraw @a[tag=admin,limit=1] [{"text":"Test start_ray works!","color":"aqua"}]  

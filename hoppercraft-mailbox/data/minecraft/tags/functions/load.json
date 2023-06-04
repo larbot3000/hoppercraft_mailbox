@@ -1,6 +1,5 @@
 {
   "values":[
-	"mailbox:info",
-  "iris:setup/load"
+	"mailbox:info"
   ]
 }
