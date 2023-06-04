@@ -10,4 +10,7 @@ execute store result score @s mailbox_x run data get entity @e[tag=position,limi
 execute store result score @s mailbox_y run data get entity @e[tag=position,limit=1] Pos[1]
 execute store result score @s mailbox_z run data get entity @e[tag=position,limit=1] Pos[2]
 
+
+execute as @s run tellraw @s [{"text":"Mailbox created!","color":"aqua"}]  
+
 execute run kill @e[tag=position]
