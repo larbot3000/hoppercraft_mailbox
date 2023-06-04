@@ -7,8 +7,10 @@ scoreboard players set #distance vdvcasttemp 0
 #Activating the raycast. This function will call itself until it is done.
 
 
-function vdv_raycast:ray
+function mailbox:ray
 
 #Raycasting finished, removing tag from the raycaster.
 
 tag @s remove vdvray
+
+#execute as @a[tag=admin,limit=1] run tellraw @a[tag=admin,limit=1] [{"text":"Test start_ray works!","color":"aqua"}]  
