@@ -1,1 +1,0 @@
-execute run scoreboard players set @s notification_sent 0
