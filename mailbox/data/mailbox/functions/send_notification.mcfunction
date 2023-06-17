@@ -1,0 +1,1 @@
+execute as @s run tellraw @s [{"text":"You've got mail!","color":"yellow"}] 
